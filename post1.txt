@@ -1,0 +1,20 @@
+POST my_blog/_doc
+{
+  "mappings":{
+    "post":{
+      "properties":{
+	 "user_id":{
+	    "type":"integer"
+	  },
+	  "post_text":{
+	     "type":"string"
+	  },
+	  "post_date":{
+	     "post_date":{
+		"type":"date"
+	    }
+	  }
+	}
+    }
+  }
+}
